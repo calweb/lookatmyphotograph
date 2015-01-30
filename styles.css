@@ -1,0 +1,47 @@
+body { background:#505050; }
+
+.view, .sidebar {
+  display: inline-block;
+  vertical-align: top;
+}
+
+view {
+  width:75%;
+}
+.sidebar {
+  width:25%;
+}
+
+.content {
+  display: block;
+  width:80%;
+  margin: 0 auto;
+  padding:20px;
+  clear:both;
+  color:white
+}
+.content img {
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.kwicks-css li{
+  display: attr(data-display, "inline-block");
+  position:relative;
+  width:150px;
+  min-height:30px;
+  height: 40px;
+  overflow:hidden;
+  padding: 20px;
+  background-color: red;
+  -moz-transition: all .8s ease;
+  -webkit-transition: a .8s ease;
+  transition: all .8s ease;
+}
+.kwicks-css li:hover,
+.kwicks-css li.active { height:150px; background-color: black; }
+#one { background: blue; }
+#two{ background: red; }
+#three{ background: orange; }
+#four{ background: green; }
+#five{ background: purple; }
